@@ -1,0 +1,17 @@
+Immutable class must follwoing rules:-
+  -> class must be final
+  -> data members must be private final fields
+  -> create constructor
+  -> and create getter methods only not setter mehtods
+  
+  final class Test{
+    private final int id;
+    private final String name;
+    
+    public Test(int id, String name){
+      this.id = id;
+      this.name = name;
+    }
+    
+    //getters only
+  }
