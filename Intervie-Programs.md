@@ -32,4 +32,18 @@
             
             sout(capitalizeWord.trim());
             
+            output: My Name Is Madhav
+            
+4. reverse each word is string
+            
+            String input = "my name is madhav";
+            String[] words = input.split("\\s");
+            String reveseInput = "";
+            
+            for(String word:words){            
+            StringBuilder sb = new StringBuilder(input);
+            sb.reverse();
+            }
+            
+            
             
