@@ -14,3 +14,22 @@
             for(int i=length;i>=0;i--){
               reverse += ch[i];
             }
+# check given string is a palindrome or not
+            
+            To reverse a string and comparing a original string if two string are same it is palindrome otherwise not palindrome.
+            
+# capitalize each word in java
+            
+            String input = "my name is madhav";
+            String[] words = input.split("\\s");
+            String capitalizeWord = "";
+            
+            for(String word: words){
+               String first = word.substring(0,1);
+               String afterFirst = word.substring(1);
+               capitallizeWord += first.toUpperCase()+afterFirst+" ";
+            }
+            
+            sout(capitalizeWord.trim());
+            
+            
