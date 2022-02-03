@@ -41,9 +41,28 @@
             String reveseInput = "";
             
             for(String word:words){            
-            StringBuilder sb = new StringBuilder(input);
-            sb.reverse();
+                        StringBuilder sb = new StringBuilder(word);
+                        sb.reverse();
+                        reverseInput += sb.toString()+" ";
             }
+            sout(reverseInput.trim());
+            
+            output: ym eman si vahdam
+            
+5. toggle string 
+
+            String input = "this is javatpoint";
+            String[] words = input.split("\\s");
+            String toggleInput = "";
+
+            for (String word : words) {
+                  String first = word.substring(0, 1);
+                  String afterFirst = word.substring(1).toUpperCase();
+                  toggleInput += first + afterFirst + " ";
+            }
+            System.out.println(toggleInput.trim());  
+            
+            output: tHIS iS jAVATPOINT
             
             
             
