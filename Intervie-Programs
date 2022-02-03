@@ -1,16 +1,16 @@
 # Reverse a String
 
-      String input = "javatpoint";
-      
-      //reverse string using string inbuild functions
-      StringBuffer sb = new StringBuffer(input);
-      sb.reverse;
-      
-      //using iteration
-      char[] ch =input.toCharArray();
-      String reverse = "";
-      int length = ch.length-1;
-      
-      for(int i=length;i>=0;i--){
-        reverse += ch[i];
-      }
+            String input = "javatpoint";
+
+            //reverse string using string inbuild functions
+            StringBuffer sb = new StringBuffer(input);
+            sb.reverse;
+
+            //using iteration
+            char[] ch =input.toCharArray();
+            String reverse = "";
+            int length = ch.length-1;
+
+            for(int i=length;i>=0;i--){
+              reverse += ch[i];
+            }
