@@ -3,11 +3,11 @@
     Input: "welcome to code decode and code decode welcome you"
     Output: [code=2, and=1, to=1,decode=2, welcome=2,you=1]
     
-    String input = "welcome to code decode and code decode welcome you";
-    List<String> list = Arrays.asList(input.split("\\s"));
+            String input = "welcome to code decode and code decode welcome you";
+            List<String> list = Arrays.asList(input.split("\\s"));
     
-    Map<String, Long> map = list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
-    sout(map);
+            Map<String, Long> map = list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+            sout(map);
 
 2. Find the duplicate elements in a given integers list in java using stream functions?
   
