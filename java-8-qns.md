@@ -1,6 +1,7 @@
 1. count the no of occurences of words in given string using java8
     
     Input: "welcome to code decode and code decode welcome you"
+    
     Output: [code=2, and=1, to=1,decode=2, welcome=2,you=1]
     
             String input = "welcome to code decode and code decode welcome you";
@@ -12,42 +13,44 @@
 2. Find the duplicate elements in a given integers list in java using stream functions?
   
     input: [10, 28, 87, 10, 20, 76, 28, 80, 80, 80];
+    
     output: 10,28,80
       
-    List<Integer> list = Arrays.asList(10, 28, 87, 10, 20, 76, 28, 80, 80, 80);
-    Set<Integer> set = new HashSet<>();
-    
-    list.stream.filter(x -> !set.add(x)).collect(Collectors.toSet()).forEach(System.out::println);
+            List<Integer> list = Arrays.asList(10, 28, 87, 10, 20, 76, 28, 80, 80, 80);
+            Set<Integer> set = new HashSet<>();
+
+            list.stream.filter(x -> !set.add(x)).collect(Collectors.toSet()).forEach(System.out::println);
 
 3. write a program to multiply 2 no's using functional interface?
     
-    @FunctionalInterface
-    public interface Calc{
-      int multiply(int a, int b);
-    }
+            @FunctionalInterface
+            public interface Calc{
+              int multiply(int a, int b);
+            }
     
-    class Test{
-      public static void main(String[] args){
-        Calc calc = (a,b) -> a*b;
-        int total = calc.multiply(4, 5); //20
-      }
-    }
+            class Test{
+              public static void main(String[] args){
+                Calc calc = (a,b) -> a*b;
+                int total = calc.multiply(4, 5); //20
+              }
+            }
 
 4. Difference between limit() and skip()
   
       ex:- input: [10, 28, 87, 10, 20, 76, 28, 80, 80, 80];
   
       limit() => the limit(n) method is an intermediate operation that returns a stream not longer than the requested size. As before, the n parameter can't be
-                  negative.
+negative.
           
           //only 5 elements can be printed
-          list.stream.limit(5).forEach(System.out::println);
+          
+            list.stream.limit(5).forEach(System.out::println);
 
-      skip() => the skip(n) method is another intermediate operation that discards the first n elements of a stream. the n parameter can't be negative, and if it's
-                higer than the size of the stream, skip() returns an empty stream.
+      skip() => the skip(n) method is another intermediate operation that discards the first n elements of a stream. the n parameter can't be negative, and if it's higer than the size of the stream, skip() returns an empty stream.
             
           //print emlements after 6 
-          list.stream.skip(6).forEach(System.out::println);
+          
+                list.stream.skip(6).forEach(System.out::println);
 
 5. what is intermediate operation?
     
