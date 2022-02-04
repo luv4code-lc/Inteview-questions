@@ -100,5 +100,14 @@
                 }
             }
             
-            
+7. char count for string in given particular character
+
+            String input = "hello";
+            int charCount = 0;
+            for(Character ch:input.toCharArray()){
+                 if(ch == 'l'){
+                        charCount++;
+                 }
+            }
+            sout(charCount); //2
             
