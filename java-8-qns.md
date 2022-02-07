@@ -87,6 +87,22 @@ negative.
       4. lazy loaded                                eagerly loaded
       
       5. don't produce end result                   product end result
+
+
+================================================================
+
+1. Adding date field values in table
+
+    create table test(
+        id int not null primary key auto_increment,
+        name varchar(30) not null,
+        email varchar(30) not null unique key,
+        date_of_joining date not null
+    );
+    
+    //insering data
+    
+        insert into test(name,email,date_of_joining) values ('Madhav','madhav.p.akv@gmail.com',str_to_date('06-20-1994','%m-%d-%Y'));
            
   
   
