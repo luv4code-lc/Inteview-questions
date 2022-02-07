@@ -93,12 +93,12 @@ negative.
 
 1. Adding date field values in table
 
-    create table test(
-        id int not null primary key auto_increment,
-        name varchar(30) not null,
-        email varchar(30) not null unique key,
-        date_of_joining date not null
-    );
+            create table test(
+                id int not null primary key auto_increment,
+                name varchar(30) not null,
+                email varchar(30) not null unique key,
+                date_of_joining date not null
+            );
     
     //insering data
     
