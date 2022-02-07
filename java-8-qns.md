@@ -103,6 +103,31 @@ negative.
     //insering data
     
         insert into test(name,email,date_of_joining) values ('Madhav','madhav.p.akv@gmail.com',str_to_date('06-20-1994','%m-%d-%Y'));
+        
+        
+        
+================================================================
+
+1. Write an SQL query to find the count of the total occurrences of a particular character – ‘n’ in the FullName field.
+
+        select fullname, length(fullname)-length(repalce,'n','')) from employeedetails;
+        
+2. Write an SQL query to update the employee names by removing leading and trailing spaces.
+
+        update employeedetails set fullname= ltrim(rtrim(fullname));     
+        
+3. Fetch all the employees who are not working on any project.
+
+        select empid from employeedetails where projec IS NULL;       
+        
+4. Write an SQL query to fetch employee names having a salary greater than or equal to 5000 and less than or equal to 10000.
+
+        select fullname from employeedetails
+        where empid in
+        (select empid from employeesalary
+        where salary between 5000 and 10000);
+        
+5.        
            
   
   
