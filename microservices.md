@@ -50,7 +50,8 @@
             7. Microservices will need a large team size with the right mix of experience in design, development, automation, deployments, tools, and testing.
 
 4. When to use microservices?
-5. 
+
+            
             1. Reduce time to market.
             2. Scalable better software, 
             3. Lower costs, 
