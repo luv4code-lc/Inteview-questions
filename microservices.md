@@ -50,23 +50,15 @@
             7. Microservices will need a large team size with the right mix of experience in design, development, automation, deployments, tools, and testing.
 
 4. When to use microservices?
+5. 
             1. Reduce time to market.
-            
             2. Scalable better software, 
-            
             3. Lower costs, 
-            
             4. Faster development, 
-            
             5. Cloud-native development 
-            
             6. It makes sense to adopt a microservices architecture, if the team size is big enough as each service will require its team to develop, deploy and manage. 
-            
             7. Timeframe and skills of team members are a constraint. 
-            
             8. If fast results are required,
-             choose microservices architecture only if the team also has experience in microservices.
-            
-            9. Do not use this architecture for simple application which can be managed by monolithic application . 
-            
-            10. So you use ask yourself first do we really need microservice architecture 
+            9. choose microservices architecture only if the team also has experience in microservices.
+            10. Do not use this architecture for simple application which can be managed by monolithic application . 
+            11. So you use ask yourself first do we really need microservice architecture 
