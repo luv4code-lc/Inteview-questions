@@ -63,3 +63,60 @@
             9. choose microservices architecture only if the team also has experience in microservices.
             10. Do not use this architecture for simple application which can be managed by monolithic application . 
             11. So you use ask yourself first do we really need microservice architecture 
+
+5. What are the main features of Microservices?
+ 
+            Microservices architecture breaks an application into smaller services, and it is possible to develop, deploy each service independently. 
+            This makes the introduction of new features in an application very easier. 
+
+            Decentralization: Microservices architecture leads to distributed systems. The data management is decentralized. 
+            There will be a monolithic database containing all data belonging to the application. Each service has the ownership 
+            of the data related to the business functionality of that service.
+
+            Black box: Every microservice is defined as a black box. The details of the complexity are hidden from other services/components.
+
+            Security: The Microservice platform itself should provide capabilities for certificate management, different types of credentials, 
+            authentication, and authentication based on RBAC (Role-based access model). Security is decoupled from the microservice development 
+            team as platform standardization help with it.
+
+            Polyglot:
+            This is one of the significant aspects of microservices architecture.
+            For example, if a team is working on one of the microservice using Java, Spring Boot, and MySQL, another team can work on another 
+            microservice using Python, Node JS, and NoSQL. 
+
+            Different microservices can use a different version of the same programming language. Eg. Python 2.7 and Python 3.0
+            Different microservices can use different programming languages.
+            Different microservices can use different architectures as well.
+
+6. How do microservices communicate with each other?
+            
+            In the case of Microservice Architecture, there are 2 different types of inter-service communication between microservices.
+
+            a. Synchronous communication
+            b. Asynchronous communication
+
+            Synchronous communication:
+            
+                        In the case of Synchronous communication between microservices, the client service waits for the response within a time limit. 
+                        The possible solution is using HTTP Protocol using via REST API for interservice communication.
+
+            Asynchronous Communication:
+
+                        In the case of Asynchronous Communication, the client service doesn’t wait for the response from another service. 
+                        When the client microservice calls another microservice, the thread is not blocked till a response comes from the server. 
+                        The message producer service generates a message and sends the message to a message broker on a defined topic. 
+                        The message producer waits for only the acknowledgment from the message broker to know that message is received by the broker. 
+
+                        The consuming service subscribes to a topic in the messaging queue.  All the messages belonging to that topic will be 
+                        fed to the consuming system(s). The message producer service and consuming services don’t even know each other. 
+                        The response is received in the same methodology through a message broker via defined message topics.
+                        Different messaging tools are based on the AMQP (Advanced Message Queuing Protocol). Some examples are given below.
+
+                                    a. Apache Kafka
+                                    b. RabbitMQ
+                                    c. Apache ActiveMQ
+
+7. What is the difference between Monolithic, SOA and Microservices Architecture?
+
+            Main diff b/w SOA and MS architecture is Based on sharing of data and info. SOA shares and reuses as much as possible while MS 
+            focuses on sharing as little as possible
