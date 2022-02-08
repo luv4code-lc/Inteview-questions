@@ -28,33 +28,36 @@
 
             => Distinct services can be developed, deployed, and maintained independently.
 
-Q) What are the pros and cons of Microservice Architecture?
- Pros of Microservice Architecture
-1) Freedom to use different technologies
-2) Each microservices focuses on single capability
-3) Supports individual deployable units
-4) Allow frequent software releases
-5) Ensures security of each service
-6) Multiple services are parallelly developed and deployed
+3. What are the pros and cons of Microservice Architecture?
+ 
+            Pros of Microservice Architecture
 
- Cons of Microservice Architecture
-1) Management of a large number of services is difficult.
-2) Communication between microservices is complex.
-3) Increased efforts for configuration and other operations
-4) Difficult to maintain transaction safety and data boundaries
-5) Due to the decentralized nature of microservices, more microservices will mean more resources hence high Investment
-6) Debugging of problems is harder unless the right instrumentation is followed during design and development.
-7) Microservices will need a large team size with the right mix of experience in design, development, automation, deployments, tools, and testing.
+            1. Freedom to use different technologies
+            2. Each microservices focuses on single capability
+            3. Supports individual deployable units
+            4. Allow frequent software releases
+            5. Ensures security of each service
+            6. Multiple services are parallelly developed and deployed
 
-Q) When to use microservices?
-Reduce time to market, 
-Scalable better software, 
-Lower costs, 
-Faster development, 
-Cloud-native development 
-It makes sense to adopt a microservices architecture, if the team size is big enough as each service will require its team to develop, deploy and manage. 
-Timeframe and skills of team members are a constraint. 
-If fast results are required,
- choose microservices architecture only if the team also has experience in microservices.
-Do not use this architecture for simple application which can be managed by monolithic application . 
-So you use ask yourself first do we really need microservice architecture 
+            Cons of Microservice Architecture
+            
+            1. Management of a large number of services is difficult.
+            2. Communication between microservices is complex.
+            3. Increased efforts for configuration and other operations
+            4. Difficult to maintain transaction safety and data boundaries
+            5. Due to the decentralized nature of microservices, more microservices will mean more resources hence high Investment
+            6. Debugging of problems is harder unless the right instrumentation is followed during design and development.
+            7. Microservices will need a large team size with the right mix of experience in design, development, automation, deployments, tools, and testing.
+
+4. When to use microservices?
+            1. Reduce time to market, 
+            2. Scalable better software, 
+            3. Lower costs, 
+            4. Faster development, 
+            5. Cloud-native development 
+            6. It makes sense to adopt a microservices architecture, if the team size is big enough as each service will require its team to develop, deploy and manage. 
+            7. Timeframe and skills of team members are a constraint. 
+            8. If fast results are required,
+             choose microservices architecture only if the team also has experience in microservices.
+            9. Do not use this architecture for simple application which can be managed by monolithic application . 
+            10. So you use ask yourself first do we really need microservice architecture 
