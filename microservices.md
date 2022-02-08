@@ -1,32 +1,32 @@
 1. What are Microservices?
 
-      => Microservices is an architecture where the application is exposed as loosely coupled services that can be independently developed, deployed, and maintained.
-         Each service exposed is referred to as Microservice. Each service performs a unique function.
-         
-      => Speciality of this architecture is that polyglot architecture is supported.  For example, if a team is working on one of the microservice using Java, Spring Boot, and MySQL, another team can work on another microservice using Python, Node JS, and NoSQL. 
+            => Microservices is an architecture where the application is exposed as loosely coupled services that can be independently developed, deployed, and maintained.
+               Each service exposed is referred to as Microservice. Each service performs a unique function.
 
-      => Different microservices can use a different version of the same programming language.
-      
-      => Different microservices can use different programming languages.
-      
-      => Different microservices can use different architectures as well.
+            => Speciality of this architecture is that polyglot architecture is supported.  For example, if a team is working on one of the microservice using Java, Spring Boot, and MySQL, another team can work on another microservice using Python, Node JS, and NoSQL. 
+
+            => Different microservices can use a different version of the same programming language.
+
+            => Different microservices can use different programming languages.
+
+            => Different microservices can use different architectures as well.
 --------------------------------------------------------------------------------------------------------------------------------------
 2. Why Microservices?
-      => In the case of monolith applications, there are several problems like
-         Same code base for presentation, business layer, and data access layer. Application is deployed as a single unit.
-      
-      => Complex to maintain and scalability is an issue.
-      
-      => Microservice solves the above problems. 
-      
-      => Microservices are ideal when a monolith or a legacy application needs to be modernized. 
-      
-      => For new software development, if the key business drivers are to reduce time to market, scalable better software, lower costs, faster development, 
-      or cloud-native development, microservices are ideal.
-      
-      => Each service is independent and gives the flexibility to choose the programming language, database, and/or architecture.
-      
-      => Distinct services can be developed, deployed, and maintained independently.
+            => In the case of monolith applications, there are several problems like
+               Same code base for presentation, business layer, and data access layer. Application is deployed as a single unit.
+
+            => Complex to maintain and scalability is an issue.
+
+            => Microservice solves the above problems. 
+
+            => Microservices are ideal when a monolith or a legacy application needs to be modernized. 
+
+            => For new software development, if the key business drivers are to reduce time to market, scalable better software, lower costs, faster development, 
+            or cloud-native development, microservices are ideal.
+
+            => Each service is independent and gives the flexibility to choose the programming language, database, and/or architecture.
+
+            => Distinct services can be developed, deployed, and maintained independently.
 
 Q) What are the pros and cons of Microservice Architecture?
  Pros of Microservice Architecture
